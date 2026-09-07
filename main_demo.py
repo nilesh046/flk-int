@@ -1,7 +1,5 @@
-def run_demo():
-    # TODO: run demo scenarios with sample inputs
-    pass
+from main import MyApp
 
+app = MyApp()
 
-if __name__ == "__main__":
-    run_demo()
+app.printHello("World")

@@ -1,7 +1,7 @@
-def main():
-    # TODO: initialise the application here
-    pass
+class MyApp:
+    def __init__(self):
+        # TODO: initialise the application here
+        pass
 
-
-if __name__ == "__main__":
-    main()
+    def printHello(self, name):
+        print(f"Hello, {name}")
